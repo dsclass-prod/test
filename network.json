@@ -28,6 +28,11 @@
             "ports": [],
             "source": "data.csv",
             "target": "create2.R"
+        },
+        {
+            "ports": [],
+            "source": "create2.R",
+            "target": "DATA2.csv"
         }
     ],
     "nodes": [
@@ -51,6 +56,6 @@
             "name": "DATA2.csv"
         }
     ],
-    "updated_at": "2018-09-27 15:29:55",
+    "updated_at": "2018-09-27 15:30:03",
     "url": "https://github.com/dsclass-prod/test"
 }
