@@ -23,6 +23,11 @@
             ],
             "source": "clean.R",
             "target": "data.csv"
+        },
+        {
+            "ports": [],
+            "source": "data.csv",
+            "target": "create2.R"
         }
     ],
     "nodes": [
@@ -43,6 +48,6 @@
             "name": "create2.R"
         }
     ],
-    "updated_at": "2018-09-27 15:21:56",
+    "updated_at": "2018-09-27 15:28:48",
     "url": "https://github.com/dsclass-prod/test"
 }
